@@ -1,0 +1,152 @@
+body {
+    color: #222;
+    font: 100.01%/1.375 Tahoma,Geneva,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 8px auto;
+    max-width: 940px;
+}
+
+#cart {
+    float: right;
+    width: 25%;
+}
+
+#cart #cart-content,
+#cart #cart-total {
+    font-size: 0.875em;
+}
+
+#cart #cart-content tr {
+    border-bottom: 0 none;
+}
+
+#shop {
+    width: 74%;
+}
+
+
+#shop ul {
+    list-style: none;
+}
+
+#shop .wrapper {
+    border: 1px solid #eee;
+    margin-bottom: .8em;
+    overflow: auto;
+}
+
+#shop .img {
+    float: left;
+    margin-top: 7px;
+    text-align: center;
+    width: 18%;
+}
+
+#shop .content {
+    float: left;
+    width: 81%;
+}
+
+#shop .heading {
+    padding: 7px 5px 0 5px;
+}
+
+#shop .author {
+    padding: 0 5px 0 5px;
+}
+
+#shop .info,
+#shop .price,
+#shop .description {
+    padding: 4px 5px 4px 5px;
+}
+
+#shop .price .amount {
+    color: #396a2f;
+}
+
+#shop .button-wrapper {
+    border-top: 1px dashed #ddd;
+    overflow: auto;
+    padding: 5px;
+}
+
+#cart button,
+#shop button {
+    background-color: #396a2f;
+    color: #fff;
+    float: right;
+}
+
+#shop h4 {
+    color: #396a2f;
+}
+
+#shop p {
+    margin: 0;
+}
+
+#paydesk input {
+    width: 12em;
+}
+
+#paydesk select {
+    width: auto;
+}
+
+#paydesk .cform-buttonbar {
+    background: #fff;
+    border: 1px solid #396a2f;
+}
+
+#paydesk .buttonbar input {
+    background-color: #396a2f;
+    color: #fff;
+    width: auto;
+}
+
+#paydesk #output {
+    margin-bottom: .5em;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-height: 4em;
+    padding-left: 2em;
+    overflow: auto;
+}
+
+#paydesk #output.success {
+    background-color: #3fbf3f;
+}
+
+#paydesk #output.success p {
+    margin-bottom: 0;
+    margin-top: 1.4em;
+}
+
+#paydesk #output.failure {
+    background-color: #ef1a1a;
+}
+
+#paydesk #output.failure p,
+#paydesk #output.failure {
+    margin-bottom: .5em;
+    margin-top: 1.4em;
+}
+
+/**
+ * Credit card form
+ */
+ .cform-columns-2 .cform-column-1,
+ .cform-columns-2 .cform-column-2 {
+   float: left; width: 50%;
+ }
+
+ .cform-columns-2 .cform-buttonbar {
+   clear: both;
+   background-color: #ccc;
+   padding: 1em;
+   border: 1px solid #aaa;
+ }
+
+ .cform-columns-2 .cform-buttonbar p {
+   margin-bottom: 0;
+ }
