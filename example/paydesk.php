@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/style.css" media="screen">
         <script src="js/jquery.js"></script>
-        <script src="../jquery.geShoppingCart.js"></script>
+        <script src="../jquery.geshoppingcart.js"></script>
         <script src="js/main.js"></script>
         <title>Betala</title>
     </head>
